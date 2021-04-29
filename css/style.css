@@ -89,15 +89,35 @@ a {
     
 }
 
-.jumbo.subtitle {
-    width: 25%;
+.jumbo-subtitle {
+    width: 26%;
     margin-right: 360px;
     color: #000000;
-    font-family: 'Antonio', sans-serif;;
     text-align: left;
     font-size: 16px;
-    line-height: 26px;
-    padding-top: 50px;
+    line-height: 20px;
+    padding-top: 30px;
+}
+
+.prova-gratuita {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background-color: #0061ff;
+    margin-top: 30px;
+
+}
+
+.annulla-prova {
+    margin-top: 20px;
+
+
+}
+
+.download {
+    font-size: 65px
 }
 
 /* debug */
