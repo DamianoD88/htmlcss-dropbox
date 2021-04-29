@@ -74,15 +74,30 @@ a {
     background-color: #b4d0e7;
 }
 
-.jumnbotron-Title {
+.jumbotron-box {
     max-width: 1140px;
     margin: 0 auto;
+
+}
+
+.jumnbotron-Title {
     color: #000000;
     font-family: 'Antonio', sans-serif;;
     text-align: left;
     font-size: 65px;
     padding-top: 50px;
     
+}
+
+.jumbo.subtitle {
+    width: 25%;
+    margin-right: 360px;
+    color: #000000;
+    font-family: 'Antonio', sans-serif;;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 50px;
 }
 
 /* debug */
