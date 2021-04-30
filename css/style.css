@@ -115,7 +115,6 @@ a {
 .annulla-prova {
     margin-top: 20px;
 
-
 }
 
 .download {
@@ -125,7 +124,7 @@ a {
 
 
 .jumbotron-img {
-    width: 800px;
+    width: 890px;
     height: 500px;
     background-image: url(../img/img1.png);
     background-size: cover;
@@ -145,6 +144,35 @@ a {
     position: relative;
     background-color: white;
     
+}
+
+.container-business {
+    max-width: 870px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: SharpGroteskWide, Open Sans,sans-serif;
+    font-weight: 500;
+}
+
+.false-chek {
+    float: left;
+    margin: 35px 5px;
+}
+
+
+.false-dx-chek {
+    margin: 35px 5px;
+    display: inline-block;
+
+
 }
 
 
