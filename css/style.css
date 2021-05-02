@@ -37,7 +37,6 @@ ul {
 
 li {
     margin: 35px 20px;
-    font-size: 18px;
     text-decoration: none;
     text-align: center;
  
@@ -146,12 +145,21 @@ a {
     
 }
 
-.container-business {
-    max-width: 870px;
+.container {
+    max-width: 1200px;
     padding-top: 100px;
     padding-bottom: 30px;
     margin: 0 auto;
 }
+
+/* .container2 {
+    max-width: 1080px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+} */
+
+
 
 h2 {
     font-size: 40px;
@@ -184,12 +192,12 @@ h2 {
 
 
 .col {
-    height: 700px;
-    width: calc((100% / 3) - 4px );
+    height: 1000px;
+    width: calc((100% / 3) - 20px );
     float: left;
     position: relative;
     padding-right: 20px;
-    margin-bottom: 200px;
+    margin: 0 10px;
     padding: 10px 0;
     text-align: center;
     border: solid 1px lightgray;
@@ -206,6 +214,117 @@ h3 {
     text-align: left;
     margin: 30px 30px;
     font-size: 30px;
+}
+
+p {
+    text-align: left;
+    margin: 30px 30px;
+    color: grey;
+
+}
+
+.utenze {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    position: relative;
+}
+
+.utente-list {
+    margin: 3px;
+    display: inline-block;
+}
+
+.img-cartella {
+    display: block;
+    text-align: left;
+    margin-left: 1px;
+}
+
+.trenta-giorni {
+    position: absolute;
+    top: 170px;
+    left: 80px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #0061ff;
+
+}
+
+.bordo {
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px
+
+}
+
+.acquista {
+    margin-top: 150px;
+}
+
+.punti-piano {
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.liste-promo {
+    list-style-type: \2713;
+}
+
+.promo {
+    margin: 15px 20px;
+    text-decoration: none;
+    text-align: left;
+}
+
+/* fine tre colonne */
+
+/* inizio enterprise */
+
+.enterpirse {
+    height: 50px;
+    width: 1180px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border: solid 1px lightgray;
+    text-align: center;
+}
+
+
+.prezzo-vedite {
+    height: 200px;
+    width: 1180px;
+    float: left;
+    border: solid 1px lightgray;
+    text-align: left;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+strong {
+    color: black;
+}
+
+.contatta-ufficio {
+    position: absolute;
+    top: 1500px;
+    left: 1200px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #0061ff;
+}
+
+                    
+.descrizione-price {
+    font-size: 13px;
+    color: black;
 }
 
 /* debug */
