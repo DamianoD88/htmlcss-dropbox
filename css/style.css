@@ -31,11 +31,11 @@ li,
     display: inline-block;
 }
 
-ul {
+.barra-principale{
    margin: 0 20px;
 }
 
-li {
+.servizi-principali {
     margin: 35px 20px;
     text-decoration: none;
     text-align: center;
@@ -162,7 +162,7 @@ a {
 
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 0px;
     padding-bottom: 30px;
     text-align: center;
@@ -172,12 +172,15 @@ h2 {
 
 .false-chek {
     float: left;
-    margin: 35px 5px;
+    margin-top: 37px;
+    margin-left: 56px;
+
 }
 
 
 .false-dx-chek {
-    margin: 35px 5px;
+    margin-left: 43px;
+    margin-top: 38px;
     display: inline-block;
 
 
@@ -224,7 +227,7 @@ p {
 }
 
 .utenze {
-    list-style: none;
+
     padding-left: 0;
     text-align: left;
     position: relative;
@@ -233,7 +236,9 @@ p {
 .utente-list {
     margin: 3px;
     display: inline-block;
+    margin-left: 30px;
 }
+
 
 .img-cartella {
     display: block;
@@ -250,17 +255,29 @@ p {
     border: none;
     color: white;
     background-color: #0061ff;
+    padding-left: 42px;
+    padding-right: 42px;
+    text-align: auto;
+    margin-left: -47px;
 
 }
 
 .bordo {
+    color: black;
     border-bottom: 1px solid grey;
     padding-bottom: 30px
+    
+    
 
 }
 
 .acquista {
     margin-top: 150px;
+}
+
+.ora {
+    color: blue;
+    text-decoration: underline;
 }
 
 .punti-piano {
@@ -274,7 +291,7 @@ p {
 }
 
 .promo {
-    margin: 15px 20px;
+    margin: 8px 20px;
     text-decoration: none;
     text-align: left;
 }
@@ -354,6 +371,21 @@ strong {
     border: 1px solid grey;
 
 }
+
+/* operazioni */
+
+
+.operazioni{
+    margin-top: 179px;
+    padding-bottom: 75px;
+}
+
+.img-operazioni {
+    background-image: url(../img/img3.png);
+    height: 250px;
+    filter: alpha(opacity=60);
+    border-radius: 15px;
+
 
 /* debug */
 /* /* header .container {
