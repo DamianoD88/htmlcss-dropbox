@@ -8,7 +8,7 @@ body {
     font-family: SharpGrotesk,Open Sans,sans-serif;
 }
 
-.clearfix::after {
+.clearfix::after, .partner {
     content: '';
     display: table;
     clear: both;
@@ -325,6 +325,34 @@ strong {
 .descrizione-price {
     font-size: 13px;
     color: black;
+}
+
+/* partner */
+
+
+
+.img2 {
+    margin-left: 10px;
+    margin-top: 119px;
+}
+
+.partner-dropbox {
+    margin-top: -447px;
+    margin-left: 679px;
+
+}
+
+.Trova {
+    display: inline-block;
+    margin-left: 47px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: 1px solid grey;
+
 }
 
 /* debug */
