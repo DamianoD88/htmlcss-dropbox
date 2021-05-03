@@ -570,9 +570,6 @@ strong {
     background-color: #f5f5f5;
 }
 
-.logo-titolo {
-
-}
 
 .logo-scelto {
     height: auto;
@@ -622,6 +619,64 @@ strong {
 
 .logo5 {
     width: 150px;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.quad-dx2 {
+    float: left;
+    width: calc(100% / 2);
+    height: 320px;
+    background-color: #b4d0e7;
+    position: relative;
+    cursor: pointer;
+}
+
+.logo6 {
+    width: 150px;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.quad-tre {
+    float: left;
+    width: calc(100% / 2);
+    height: 320px;
+    background-color: #0d2481;
+    position: relative;
+    cursor: pointer;
+}
+
+.logo7 {
+    width: 150px;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.quad-quattro2 {
+    float: left;
+    width: calc(100% / 2);
+    height: 320px;
+    background-color: #ffd830;
+    position: relative;
+    cursor: pointer;
+}
+
+.logo8 {
+    width: 150px;
+    height: 75px;
     filter: invert(1);
     position: absolute;
     top: 50%;
