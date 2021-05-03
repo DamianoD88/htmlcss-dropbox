@@ -734,7 +734,10 @@ strong {
     line-height: 38px;
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
+    position: relative;
 }
+
+
 
  .titolo-domanda {
     margin-left: 0px;
@@ -743,19 +746,40 @@ strong {
     position: relative;
 }
 
+.titolo-domanda:hover .risposta {
+    display: block;
+}
+
 .risposta {
+    display: none;
     margin-left: 0px;
     font-size: 16px;
     line-height: 26px;
     color: grey;
 }
 
+.content-risp {
+    display: none;
+    position: absolute;
+
+}
+
+.content-risp {
+    display: block;
+}
+
 .tendina {
+    height: 100%;
+    width: 100%;
     position: absolute;
     padding-left: 1200px;
     transform: rotate(90deg)
-
 }
+
+.tendina:hover .risposta {
+    display: block;
+}
+
 
 /* debug */
 /* /* header .container {
