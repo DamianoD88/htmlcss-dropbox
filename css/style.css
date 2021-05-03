@@ -187,12 +187,6 @@ h2 {
 }
 
 
-.row {
-    max-width: 870px;
-    text-align: center;
-    margin: auto;
-}
-
 
 .col {
     height: 1000px;
@@ -380,7 +374,14 @@ strong {
     padding-bottom: 75px;
 }
 
-.col-sx, .col-centr {
+
+.row {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+.col-sx, .col-centr, .col-dx  {
     float: left;
     display: inline-block;
     width: calc((100% / 3) - 80px);
@@ -398,12 +399,13 @@ strong {
     font-size: 25px;
     margin-top: 30px;
     float: left;
+    text-align: left;
 }
 
 .operazioni-descrizione {
     margin-left: 0px;
-    margin-top: 116px;
-    padding-top: 0px;
+    margin-top: 98px;
+    padding-top: 20px;
     color: black;
 }
 
@@ -422,6 +424,20 @@ strong {
 .img-collaborazioni {
     margin-top: 50px;
     background-image: url(../img/img5.png);
+    background-size: cover;
+    height: 250px;
+
+}
+.col-bottom {
+    display: inline-block;
+    width: calc((100% / 3) - 80px);
+    margin-right: 69px;
+
+}
+
+.img-discussioni {
+    margin-top: 50px;
+    background-image: url(../img/img6.png);
     background-size: cover;
     height: 250px;
 
