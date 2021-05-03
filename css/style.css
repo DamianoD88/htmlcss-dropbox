@@ -437,6 +437,22 @@ strong {
 
 }
 
+.img-sicurezza {
+    margin-top: 50px;
+    background-image: url(../img/img7.png);
+    background-size: cover;
+    height: 250px;
+
+}
+
+.img-tranquillità {
+    margin-top: 50px;
+    background-image: url(../img/img8.png);
+    background-size: cover;
+    height: 250px;
+
+}
+
 /* fine operazioni */
 
 /* inizio partners Dropbox */
@@ -487,7 +503,6 @@ strong {
     float: left;
     width: calc(100% / 2);
     height: 320px;
-    background-color: #a2d39b;
     background-color: #61082b;
     position: relative;
     cursor: pointer;
@@ -495,6 +510,26 @@ strong {
 }
 
 .logo2 {
+    width: 150px;
+    height: 75px;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.quad-tre {
+    float: left;
+    width: calc(100% / 2);
+    height: 320px;
+    background-color: #0093ce;
+    position: relative;
+    cursor: pointer;  
+}
+
+.logo3 {
     width: 150px;
     filter: invert(1);
     position: absolute;
@@ -504,6 +539,96 @@ strong {
 
 }
 
+.quad-quattro {
+    float: left;
+    width: calc(100% / 2);
+    height: 320px;
+    background-color: #ff1c1c;
+    position: relative;
+    cursor: pointer; 
+}
+
+.logo4 {
+    width: 150px;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* fine colonna sinistra */
+
+/* inizio colonna centrale */
+
+.col-centr-partners {
+    height: 640px;
+    float: left;
+    width: calc(100% / 3);
+    overflow: auto;
+    background-color: #f5f5f5;
+}
+
+.logo-titolo {
+
+}
+
+.logo-scelto {
+    height: auto;
+    max-width: 150px;
+    padding-right: 0px;
+    margin-right: 390px;
+    margin-top: 120px;
+
+}
+
+.sottofrase {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 0px;
+    padding-top: 124px;
+    margin-left: 47px;
+    margin-right: 47px;
+    color: #000;
+}
+
+.autore-frase {
+    font-size: 14px;
+    line-height: 21px;
+    padding-right: 294px;
+    padding-left: 0px;
+    padding-top: 53px;
+}
+
+/* fine colonna centrale */
+
+/* inizio colonna dx */
+
+.col-dx-partners {
+    height: 640px;
+    float: left;
+    width: calc(100% / 3);
+}
+
+.quad-sx2 {
+    float: left;
+    width: calc(100% / 2);
+    height: 320px;
+    background-color: #d5001f;
+    position: relative;
+    cursor: pointer;
+}
+
+.logo5 {
+    width: 150px;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
 
 
 /* debug */
