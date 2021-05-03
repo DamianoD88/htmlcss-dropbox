@@ -165,7 +165,7 @@ h2 {
     font-size: 50px;
     padding-bottom: 30px;
     text-align: left;
-    font-family: SharpGroteskWide, Open Sans,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
 }
 
@@ -427,12 +427,7 @@ strong {
     height: 250px;
 
 }
-.col-bottom {
-    display: inline-block;
-    width: calc((100% / 3) - 80px);
-    margin-right: 69px;
 
-}
 
 .img-discussioni {
     margin-top: 50px;
@@ -442,15 +437,73 @@ strong {
 
 }
 
-/* fine operzaioni */
+/* fine operazioni */
 
 /* inizio partners Dropbox */
 
 
 
-.ora 2 {
-    text-align: left;
+.row2 {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
 }
+
+.col-bottom {
+    display: inline-block;
+    width: calc((100% / 3) - 80px);
+    margin-right: 69px;
+
+}
+
+.col-sx-partners {
+    height: 640px;
+    float: left;
+    width: calc(100% / 3);
+}
+
+.quad-sx {
+    float: left;
+    width: calc(100% / 2);
+    height: 320px;
+    background-color: #a2d39b;
+    border: 10px solid rgba(255,255,255,0.5);
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.logo1 {
+    width: 150px;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.quad-dx {
+    float: left;
+    width: calc(100% / 2);
+    height: 320px;
+    background-color: #a2d39b;
+    background-color: #61082b;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.logo2 {
+    width: 150px;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
 
 
 /* debug */
