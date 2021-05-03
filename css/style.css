@@ -321,11 +321,17 @@ strong {
 }
 
 .contatta-ufficio {
+    font-size: 14px;
+    margin-right: 0px;
+    padding-right: 42px;
+    margin-left: 44px;
+    padding-left: 42px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: absolute;
-    top: 1500px;
+    top: 1533px;
     left: 1200px;
-    padding: 15px;
-    font-size: 18px;
+    font-size: 14px;
     border: none;
     color: white;
     background-color: #0061ff;
@@ -683,6 +689,41 @@ strong {
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+/* fine colonna dx */
+
+.sotto-partners {
+    height: 300px;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    background-color: #b4d0e7;
+    position: relative;
+
+}
+
+.titolo-sotto-partners {
+    padding-top: 123px;
+    padding-left: 446px;
+    font-size: 40px;
+    line-height: 46px;
+    color: #61082b;
+}
+
+.prova-gratuita2 {
+    position: absolute;
+    bottom: 128px;
+    left: 1200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px; 
+    font-size: 14px;
+    border: none;
+    color: black;
+    background-color: white;
 }
 
 
