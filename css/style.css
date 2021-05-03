@@ -163,9 +163,8 @@ a {
 
 h2 {
     font-size: 50px;
-    line-height: 0px;
     padding-bottom: 30px;
-    text-align: center;
+    text-align: left;
     font-family: SharpGroteskWide, Open Sans,sans-serif;
     font-weight: 500;
 }
@@ -442,6 +441,17 @@ strong {
     height: 250px;
 
 }
+
+/* fine operzaioni */
+
+/* inizio partners Dropbox */
+
+
+
+.ora 2 {
+    text-align: left;
+}
+
 
 /* debug */
 /* /* header .container {
