@@ -572,7 +572,7 @@ strong {
     height: 640px;
     float: left;
     width: calc(100% / 3);
-    overflow: auto;
+    overflow-y: auto;
     background-color: #f5f5f5;
 }
 
