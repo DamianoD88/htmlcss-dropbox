@@ -8,6 +8,16 @@ body {
     font-family: SharpGrotesk,Open Sans,sans-serif;
 }
 
+header{
+    position: fixed;
+    z-index: 1;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
 .clearfix::after, .partner {
     content: '';
     display: table;
@@ -69,13 +79,14 @@ a {
 
 .jumbotron {
     width: 100%;
-    height: 65vh;
+    height: 75vh;
     position: relative;
     background-color: #b4d0e7;
     
 }
 
 .jumbotron-box {
+    padding-top: 54px;
     max-width: 1140px;
     margin: 0 auto;
 
@@ -123,6 +134,7 @@ a {
 
 
 .jumbotron-img {
+    margin-top: 99px;
     width: 890px;
     height: 500px;
     background-image: url(../img/img1.png);
@@ -726,6 +738,8 @@ strong {
     background-color: white;
 }
 
+/* inizio faq */
+
 .faq {
     width: 100%;
     height: 200px;
@@ -737,6 +751,48 @@ strong {
     position: relative;
 }
 
+.faq .titolo-domanda {
+    display: inline-block;
+}
+
+.faq img {
+    width: 20px;
+}
+
+.clearfix-faqfirs .risposta {
+    display: none;
+
+}
+
+.tendina-down {
+    display: inline-block;
+    margin-left: 514px;
+}
+
+.tendina-down:hover {
+    display: none;
+}
+
+.tendina-up {
+    display: none;
+    margin-left: 514px;
+}
+
+.tendina-up:hover {
+    display: block;
+}
+
+.clearfix-faqfirst:hover .risposta {
+    display: block;
+}
+
+.clearfix-faqfirs:hover .tendina-up {
+    display: block;
+}
+
+.clearfix-faqfirs:hover .tendina-down {
+    display: none;
+}
 
 
  .titolo-domanda {
@@ -744,10 +800,6 @@ strong {
     font-size: 16px;
     line-height: 26px;
     position: relative;
-}
-
-.titolo-domanda:hover .risposta {
-    display: block;
 }
 
 .risposta {
@@ -758,28 +810,46 @@ strong {
     color: grey;
 }
 
-.content-risp {
-    display: none;
-    position: absolute;
+/* footer */
 
-}
-
-.content-risp {
-    display: block;
-}
-
-.tendina {
-    height: 100%;
+footer {
     width: 100%;
-    position: absolute;
-    padding-left: 1200px;
-    transform: rotate(90deg)
+    height: 500px;
+    background-color: black;
 }
 
-.tendina:hover .risposta {
+
+.last-row-clearfix {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5000px;
+}
+
+.titolo1 {
+     color: white;
+}
+
+
+.column {
+    margin-top: 100px;
+    margin-right: 70px;
+    float: left;
+    
+}
+
+.liste-block {
+    font-size: 14px;
+    margin-top: 10px;
     display: block;
 }
 
+.last-part {
+    color: white;
+}
+
+.last-part:hover {
+    text-decoration: underline;
+}
 
 /* debug */
 /* /* header .container {
