@@ -46,6 +46,12 @@ li,
     display: inline-block;
 }
 
+.button:hover, .prova-gratuita:hover, .trenta-giorni:hover, .contatta-ufficio:hover,
+.Trova:hover  {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 .barra-principale{
    margin: 0 20px;
 }
