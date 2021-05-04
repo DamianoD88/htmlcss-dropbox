@@ -751,7 +751,42 @@ strong {
     position: relative;
 }
 
-.faq .titolo-domanda {
+.lista-faq{
+    margin: 20px 0;
+}
+
+.domanda{
+    font-size: 20px;
+    border-top-width: 1px;
+    padding-top: 20px;
+    border-top: 1px solid grey;
+    margin-bottom: 10px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.visualizza{
+    transform: rotate(260deg);
+    font-size: 20px;
+    float: right;
+}
+
+.risposta {
+    display: none;
+    color: lightgray;
+}
+
+
+.lista-faq:hover .risposta {
+    display: block;
+}
+
+.visualizza:hover {
+    display: none;
+}
+
+
+/* .faq .titolo-domanda {
     display: inline-block;
 }
 
@@ -808,7 +843,7 @@ strong {
     font-size: 16px;
     line-height: 26px;
     color: grey;
-}
+} */
 
 /* footer */
 
