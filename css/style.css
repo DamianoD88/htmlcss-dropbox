@@ -785,6 +785,23 @@ strong {
     display: none;
 }
 
+/* fine footer superiore */
+
+.bottom {
+    color: gray;
+    font-size: 14px;
+    margin-top: 100px;
+    border-top: 1px solid gray;
+    border-top-style: solid;
+    border-top-style: solid;
+    padding-top: 26px;  
+}
+
+.footer-bottom {
+    color: white;
+}
+
+
 
 /* .faq .titolo-domanda {
     display: inline-block;
